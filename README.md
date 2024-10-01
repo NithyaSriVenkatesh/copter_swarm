@@ -12,10 +12,6 @@ Complex swarm applications are performed as a weighted combination of the follow
 - Exploration
 - Line formation
 - Shape Formation
-- Surrounding an item
-- Consensus
-
-**[ Version 1.0.0 ]**
 
 ## Structure of the Repository
 The repository is astructured as Python3 package. The subfolder ```swarm_tasks``` contains the following modules:
@@ -46,7 +42,7 @@ Each controller implemented in this module returns an instance of ```Cmd```. The
 
 Clone the package using the following command:
 
-	git clone https://github.com/rmvanarse/swarm_tasks
+	git clone https://github.com/NithyaSriVenkatesh/copter_swarm.git
 Install the package from the root directory as follows:
 
 	cd swarm_tasks
@@ -115,8 +111,4 @@ while(1):
 	gui.update()
 ```	
 The ```test.py``` and ```test_tasks.py``` files can be used for easily testing and experimenting with the behaviours and tasks easily.
-
-## Authors:
-**Rishikesh Vanarse** ( [GitHub](https://github.com/rmvanarse), [Website](https://rmvanarse.github.io) ) 
-
 
