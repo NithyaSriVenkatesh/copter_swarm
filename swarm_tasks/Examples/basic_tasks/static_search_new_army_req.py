@@ -1,9 +1,7 @@
 print("Running foraging example 1\nUsing source files for package imports\nPARAMETERS:")
 import sys,os
-
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__),'../../..')))
 print(sys.path)
-
 import swarm_tasks
 #Set demo parameters directly
 import numpy as np
