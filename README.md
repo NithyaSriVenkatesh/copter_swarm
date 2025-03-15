@@ -1,7 +1,7 @@
 # Swarmbots - Tasks
 
 
-The project aims to automate a decentralized swarm of autonomous mobile robots to carry out different tasks, with a focus on motion planning.
+The project aims to automate a decentralized swarm of copters to carry out different tasks, with a focus on motion planning.
 
 The system is completelly decentralized. Each robot only knows the approximate relative position of the robots within a speciific neighbourhood radius. The bots do not rely on inter-robot comminication, localization or memory, and possess only minimal local sensing & processing capabilities. They perform tasks collectively through 'swarm intelligence' algorithms.
 
